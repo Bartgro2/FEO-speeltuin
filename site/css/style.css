@@ -3,3 +3,13 @@ main { width: 100%; }
 div.container { width: 60%; margin: 60px auto 0 
 auto; border-radius: 20px; } 
 form { background: beige; padding: 20px 0px;} 
+
+ul { list-style: none; margin: 0 auto; } 
+li { display: inline-block; } 
+input { appearance: none; padding: 10px 16px;
+border: none; margin-top: 6px; font-size: 1.1em; }
+label { font-size: 0.6em; color: darkgray; padding-left: 16px; margin-bottom: 10px;  text-transform: uppercase; } 
+textarea{ resize: none;}
+button { appearance: none; border: 1px solid transparent; padding: 10px 16px; 
+border-radius: 20px; margin-top: 20px; background-color: cornflowerblue; }
+button:hover { border: 1px solid black; cursor: pointer; }
