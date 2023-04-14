@@ -1,4 +1,3 @@
-// Database configuratie
 <?
 $host  = "mariadb";
 $dbuser = "root";
