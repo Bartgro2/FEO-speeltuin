@@ -46,7 +46,7 @@ require 'database.php';
                 </li>
             </ul>
             <li>
-                <button type="submit">Verstuur</button>
+                <button type="submit">Send</button>
             </li>
             </ul>
         </form>

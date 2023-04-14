@@ -10,7 +10,7 @@ label { font-size: 0.6em; color: burlywood; padding-left: 16px; margin-bottom: 7
 textarea{ resize: none; margin-left: 15px; border: 1px solid coral;}
 button { appearance: none; border: 1px solid transparent; padding: 10px 16px; 
 border-radius: 20px; margin-top: 20px; margin-left: 250px; background-color: coral; }
-button:hover { border: 1px solid black; cursor: pointer; }
+button:hover { border: 1px solid white; cursor: pointer; }
 p.extra-info{
     padding-left: 15px;
     font-size: 12px;
