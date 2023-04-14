@@ -42,7 +42,7 @@ require 'database.php';
             <ul>
                 <li>
                     <label for="message">Your message: </label>
-                    <textarea name="message" id="txtmessage" cols="65" rows="10" autofocus></textarea>
+                    <textarea name="message" id="txtmessage" cols="70" rows="10" autofocus></textarea>
                 </li>
             </ul>
             <li>

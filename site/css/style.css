@@ -5,9 +5,9 @@ auto; border-radius: 20px; }
 form { background: beige; padding: 20px 0px;} 
 ul { list-style: none; margin: 0 auto; } 
 li { display: inline-block; } 
-input { appearance: none; padding: 10px 16px; border: 2px solid coral; margin-top: 6px; margin-left: 15px; margin-bottom: 20px; font-size: 1.1em; }
+input { appearance: none; padding: 10px 16px; border: 1px solid coral; margin-top: 6px; margin-left: 15px; margin-bottom: 20px; font-size: 1.1em; }
 label { font-size: 0.6em; color: burlywood; padding-left: 16px; margin-bottom: 7.6px;  text-transform: uppercase; display: block; } 
-textarea{ resize: none;}
+textarea{ resize: none; margin-left: 15px; border: 1px solid coral;}
 button { appearance: none; border: 1px solid transparent; padding: 10px 16px; 
 border-radius: 20px; margin-top: 20px; background-color: cornflowerblue; }
 button:hover { border: 1px solid black; cursor: pointer; }
