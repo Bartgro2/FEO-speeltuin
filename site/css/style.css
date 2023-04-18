@@ -1,17 +1,86 @@
-body { font-family: arial, sans-serif; } 
-main { width: 100%; } 
-div.container { width: 54%; margin: 50px auto 0 
-auto; border-radius: 20px;} 
-form { background: beige; padding: 20px 0px;} 
-ul { list-style: none; margin: 0 auto; } 
-li { display: inline-block; } 
-input { appearance: none; padding: 10px 16px; border: 1px solid coral; margin-top: 6px; margin-left: 15px; margin-bottom: 20px; font-size: 1.1em; }
-label { font-size: 0.6em; color: burlywood; padding-left: 16px; margin-bottom: 7.6px;  text-transform: uppercase; display: block; } 
-textarea{ resize: none; margin-left: 15px; border: 1px solid coral;}
-button { appearance: none; border: 1px solid transparent; padding: 10px 16px; 
-border-radius: 20px; margin-top: 20px; margin-left: 250px; background-color: coral; color: white;}
-button:hover { border: 1px solid black; cursor: pointer; }
-p.extra-info{
+body {
+    font-family: arial, sans-serif;
+}
+
+main {
+    width: 100%;
+}
+
+div.container {
+    width: 47%;
+    margin: 50px auto 0 auto;
+    border-radius: 20px;
+}
+
+form {
+    background: beige;
+    padding: 20px 0px;
+}
+
+ul {
+    list-style: none;
+    margin: 0 auto;
+}
+
+li {
+    display: inline-block;
+}
+
+input {
+    appearance: none;
+    padding: 10px 16px;
+    border: 1px solid coral;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 1.1em;
+}
+
+label {
+    font-size: 0.6em;
+    color: burlywood;
+    padding-left: 16px;
+    margin-bottom: 7.6px;
+    text-transform: uppercase;
+    display: block;
+}
+
+textarea {
+    resize: none;
+    margin-left: 9.5px;
+    border: 1px solid coral;
+}
+
+button {
+    appearance: none;
+    border: 1px solid transparent;
+    padding: 10px 16px;
+    border-radius: 20px;
+    margin-top: 20px;
+    background-color: coral;
+    color: white;
+}
+
+button:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+div.groep_types {
+    margin-left: -25px;
+
+}
+
+div.groep_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-left: -40px;
+
+}
+
+p.extra-info {
     padding-left: 15px;
     font-size: 12px;
     color: gray;
