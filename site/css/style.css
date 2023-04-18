@@ -37,16 +37,16 @@ input {
 }
 
 label {
-    font-size: 0.6em;
+    font-size: 0.7em;
     color: burlywood;
-    padding-left: 16px;
-    margin-bottom: 7.6px;
+    padding-left: 10px;
     text-transform: uppercase;
     display: block;
 }
 
 textarea {
     resize: none;
+    margin-top: 8px;
     margin-left: 9.5px;
     border: 1px solid coral;
 }
@@ -54,7 +54,7 @@ textarea {
 button {
     appearance: none;
     border: 1px solid transparent;
-    padding: 10px 16px;
+    padding: 10px 30px;
     border-radius: 20px;
     margin-top: 20px;
     background-color: coral;
@@ -66,22 +66,40 @@ button:hover {
     cursor: pointer;
 }
 
+div.top-form{
+    color: burlywood;
+    padding-bottom: 23px;
+}
+
+div.top-form h1{
+    font-style: italic;
+    padding-left: 20px;
+    font-size: 24px;
+}
+
+div.top-form p{
+    padding-left: 20px;
+    font-size: 17px;
+}
+
+div.top-form hr {
+    width: 514px;
+}
+
 div.groep_types {
     margin-left: -25px;
 
+}
+
+p.extra-info {  
+    padding-left: 10px;
+    font-size: 12px;
+    color: gray;
 }
 
 div.groep_button {
     display: flex;
     justify-content: center;
     align-items: center;
-
     margin-left: -40px;
-
-}
-
-p.extra-info {
-    padding-left: 15px;
-    font-size: 12px;
-    color: gray;
 }

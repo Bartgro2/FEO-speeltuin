@@ -16,6 +16,11 @@ require 'database.php';
 <div class="container">
     <main>
         <form action="" method="get">
+            <div class="top-form">
+               <h1>Contact Us</h1>
+               <p>We'd love to get in touch and learn more about you. So, send us a message a we'll reply as fast as we can.</p>
+               <hr>
+            </div>
             <div class="groep_types">
                 <ul>
                     <li>
@@ -58,7 +63,7 @@ require 'database.php';
             <div class="groep_button">
             <ul>
             <li>
-                <button type="submit">Send</button>
+                <button type="submit">SEND</button>
             </li>
             </ul>
             </div>
