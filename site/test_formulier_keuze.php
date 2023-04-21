@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/style2.css">
 </head>
 <body>
 <main>
@@ -30,12 +31,12 @@
             </ul>
             <ul class="radioinvoer">
                 <li>
-                    <input type="radio" id="ja" value="JA" checked>
-                    <label for="ja">Ja</label>
+                    <input type="ja" id="ja"  name="vraag"value="JA" checked>
+                    <label for="radio">Ja</label>
                 </li>
                 <li>
-                    <input type="radio" id="nee" value="NEE">
-                    <label for="nee">Nee</label>
+                    <input type="nee" id="nee"  name="vraag"value="Nee" checked>
+                    <label for="radio">Nee</label>
                 </li>
             </ul>
             <ul class="radioinvoer">
