@@ -18,7 +18,7 @@
                 <label class="radio-question" for="radio">What is your age group?</label>
                 <div class="blok">
                     <div class="blokje">
-                        
+
                         <input type="radio" name="age" id="Under_18">
                         <label for="age">Under 18</label>
                     </div>
@@ -31,48 +31,77 @@
                         <label for="age">25 - 34</label>
                     </div>
                     <div class="blokje">
-                    <input type="radio" name="age" id="35-44">
-                    <label for="age">34 - 44</label>
-                    </div>                  
-                </div>  
+                        <input type="radio" name="age" id="35-44">
+                        <label for="age">34 - 44</label>
+                    </div>
+                </div>
             </div>
 
             <div class="groep_types">
                 <label class="radio-question" for="gender">What is your gender?</label>
-                  <div class="blok">
+                <div class="blok">
                     <input type="text" name="gender" id="gender">
-                  </div>
+                </div>
             </div>
 
             <div class="groep_types">
                 <label class="radio-question" for="radio">How satisfied are you with our product/service?</label>
                 <div class="blok">
                     <div class="blokje">
-                        
+
                         <input type="radio" name="age" id="Under_18">
-                        <label for="age">Under 18</label>
+                        <label for="age">Very much</label>
                     </div>
                     <div class="blokje">
                         <input type="radio" name="age" id="18-24">
-                        <label for="age">18 - 24</label>
+                        <label for="age">Satisfied</label>
                     </div>
                     <div class="blokje">
                         <input type="radio" name="age" id="25-34">
-                        <label for="age">25 - 34</label>
+                        <label for="age">Neutral</label>
                     </div>
                     <div class="blokje">
-                    <input type="radio" name="age" id="35-44">
-                    <label for="age">34 - 44</label>
-                    </div>                  
-                </div>  
+                        <input type="radio" name="age" id="35-44">
+                        <label for="age">Dissatisfied</label>
+                    </div>
+                </div>
             </div>
 
-            <div class="groep_button">
-                <ul>
-                    <li>
-                        <button type="submit">SEND</button>
-                    </li>
-                </ul>
+            <div class="groep_types">
+                <label class="radio-question" for="radio">How likely are you to recommend us to others?</label>
+                <div class="blok">
+                    <div class="blokje">
+
+                        <input type="radio" name="age" id="Under_18">
+                        <label for="age">Definitely</label>
+                    </div>
+                    <div class="blokje">
+                        <input type="radio" name="age" id="18-24">
+                        <label for="age">Likely to</label>
+                    </div>
+                    <div class="blokje">
+                        <input type="radio" name="age" id="25-34">
+                        <label for="age">Neutral</label>
+                    </div>
+                    <div class="blokje">
+                        <input type="radio" name="age" id="35-44">
+                        <label for="age">Unlikely to</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="groep_types">
+                <label class="radio-question" for="company">What led you to choose our company?</label>
+                  <div class="blok">
+                    <input type="text" name="company" id="company">
+                  </div>
+            </div>
+
+            <div class="groep_special">
+            <div class="blok">
+            <label class="radio-question" for="company">What led you to choose our company?</label>
+            </div>
+            <input type="text" name="company" id="company">
             </div>
         </form>
     </main>
