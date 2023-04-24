@@ -7,7 +7,7 @@ main {
 }
 
 div.container {
-    width: 47%;
+    width: 39%;
     margin: 50px auto 0 auto;
     border-radius: 20px;
 }
@@ -47,15 +47,13 @@ button:hover {
 }
 
 div.top-form {
-    color: burlywood;
-    padding-bottom: 23px;
+    width: 500px;
 }
 
 div.top-form h1 {
-
     padding-left: 40px;
-    font-size: 52px;
-
+    font-size: 40px;
+    color: burlywood;
 }
 
 div.groep_types{
@@ -68,26 +66,23 @@ div.blok {
     gap: 10px;
 }
 
-
+.radio-question{
+    font-size: 0.7em;
+    text-transform: uppercase;
+}
 
 div.blokje { 
     background-color: white;
-    padding: 4px 10px;
+    padding: 4px 19px;
     border-radius: 20px;
     border: solid 1px gray; 
 }
 
 div.blokje label{
-    
-   
-    font-size: 10px;
-   
-    
+    font-size: 10px; 
 }
 
 div.blokje input[type="radio"]{
-    margin-left: -5px;
-    
-    
+    margin-left: -5px; 
 }
 
