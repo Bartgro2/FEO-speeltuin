@@ -44,6 +44,29 @@
                   </div>
             </div>
 
+            <div class="groep_types">
+                <label class="radio-question" for="radio">How satisfied are you with our product/service?</label>
+                <div class="blok">
+                    <div class="blokje">
+                        
+                        <input type="radio" name="age" id="Under_18">
+                        <label for="age">Under 18</label>
+                    </div>
+                    <div class="blokje">
+                        <input type="radio" name="age" id="18-24">
+                        <label for="age">18 - 24</label>
+                    </div>
+                    <div class="blokje">
+                        <input type="radio" name="age" id="25-34">
+                        <label for="age">25 - 34</label>
+                    </div>
+                    <div class="blokje">
+                    <input type="radio" name="age" id="35-44">
+                    <label for="age">34 - 44</label>
+                    </div>                  
+                </div>  
+            </div>
+
             <div class="groep_button">
                 <ul>
                     <li>
