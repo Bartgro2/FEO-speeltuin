@@ -33,8 +33,15 @@
                     <div class="blokje">
                     <input type="radio" name="age" id="35-44">
                     <label for="age">34 - 44</label>
-                    </div>
-                </div>
+                    </div>                  
+                </div>  
+            </div>
+
+            <div class="groep_types">
+                <label class="radio-question" for="gender">What is your gender?</label>
+                  <div class="blok">
+                    <input type="text" name="gender" id="gender">
+                  </div>
             </div>
 
             <div class="groep_button">

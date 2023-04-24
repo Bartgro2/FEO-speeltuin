@@ -58,6 +58,7 @@ div.top-form h1 {
 
 div.groep_types{
     padding-left: 40px;
+    padding-bottom: 10px;
 }
 
 div.blok {
@@ -84,5 +85,10 @@ div.blokje label{
 
 div.blokje input[type="radio"]{
     margin-left: -5px; 
+}
+input[type="text"]{
+    padding: 8px 110px;
+    border-radius: 20px;
+    border: 1px solid gray;
 }
 
