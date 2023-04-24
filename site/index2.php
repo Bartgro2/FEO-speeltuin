@@ -98,8 +98,9 @@
             </div>
 
             <div class="groep_special">
+              <label class="radio-question" for="company">What led you to choose our company?</label>  
             <div class="blok">
-            <label class="radio-question" for="company">What led you to choose our company?</label>
+            
             </div>
             <input type="text" name="company" id="company">
             </div>
