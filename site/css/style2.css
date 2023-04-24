@@ -28,14 +28,7 @@ li {
 
 
 
-label {
-    font-size: 0.7em;
-    color: burlywood;
-    padding-left: 10px;
-    text-transform: uppercase;
-    display: block;
-    
-}
+
 
 
 button {
@@ -65,22 +58,36 @@ div.top-form h1 {
 
 }
 
+div.groep_types{
+    padding-left: 40px;
+}
 
 div.blok {
     padding-top: 10px;
     display: flex;
+    gap: 10px;
 }
 
-div.blokje {
-    display: inline-flex;
+
+
+div.blokje { 
     background-color: white;
-    padding: 6px 30px;
+    padding: 4px 10px;
     border-radius: 20px;
-    border: solid 1px gray;
+    border: solid 1px gray; 
 }
 
-input[type="radio"] {
-    margin-left: -20px;
-    text-align: center;
-
+div.blokje label{
+    
+   
+    font-size: 10px;
+   
+    
 }
+
+div.blokje input[type="radio"]{
+    margin-left: -5px;
+    
+    
+}
+

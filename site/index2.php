@@ -15,28 +15,24 @@
                 <h1>SATISFACTION SURVEY 2023</h1>
             </div>
             <div class="groep_types">
-
-                <ul>
-                    <li>
-                        <label for="radio">What is your age group</label>
-                        <div class="blok">
-                            <div class="blokje">
-                                <input type="radio" name="age" id="Under_18">
-                                <label for="age">Under 18</label>
-                            </div>
-
-
-                            <input type="radio" name="age" id="18-24">
-
-
-                            <input type="radio" name="age" id="25-34">
-
-
-                            <input type="radio" name="age" id="35-44">
-
-                        </div>
-                    </li>
-                </ul>
+                <label for="radio">What is your age group</label>
+                <div class="blok">
+                    <div class="blokje">
+                        
+                        <input type="radio" name="age" id="Under_18">
+                        <label for="age">Under 18</label>
+                    </div>
+                    <div class="blokje">
+                        <input type="radio" name="age" id="18-24">
+                        
+                    </div>
+                    <div class="blokje">
+                        <input type="radio" name="age" id="25-34">
+                    </div>
+                    <div class="blokje">
+                    <input type="radio" name="age" id="35-44">
+                    </div>
+                </div>
             </div>
 
             <div class="groep_button">
