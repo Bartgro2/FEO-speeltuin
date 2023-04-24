@@ -45,7 +45,7 @@
             </div>
 
             <div class="groep_types">
-                <label class="radio-question" for="radio">How satisfied are you with our product/service?</label>
+                <h2 class="radio-question" for="radio">How satisfied are you with our product/service?</h2>
                 <div class="blok">
                     <div class="blokje">
 
@@ -68,7 +68,7 @@
             </div>
 
             <div class="groep_types">
-                <label class="radio-question" for="radio">How likely are you to recommend us to others?</label>
+                <h2 class="radio-question" for="radio">How likely are you to recommend us to others?</h2>
                 <div class="blok">
                     <div class="blokje">
 
@@ -91,14 +91,14 @@
             </div>
 
             <div class="groep_types">
-                <label class="radio-question" for="company">What led you to choose our company?</label>
+                <h2 class="radio-question" for="company">What led you to choose our company?</h2>
                   <div class="blok">
                     <input type="text" name="company" id="company">
                   </div>
             </div>
 
             <div class="groep_special">
-              <label class="radio-question" for="company">What led you to choose our company?</label>  
+              <h2 class="radio-question" for="company">Can you please tell us more about your experience with us?</h2>  
             <div class="blok">
             
             </div>
